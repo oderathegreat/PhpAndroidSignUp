@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                String myEmail = email.getText().toString().trim();
                String myPassword = pass.getText().toString().trim();
 
-               
+
 
             }
         });
