@@ -8,7 +8,7 @@
     tools:context="com.albaincompaniesltd.app.phpsignup.MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edtusername"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:hint="Enter username"
@@ -21,40 +21,40 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edtemail"
         android:layout_width="350dp"
         android:hint="Enter email"
         android:textColorHint="#ccc"
         android:textColor="#fff"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText"
-        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/edtusername"
+        android:layout_below="@+id/edtusername"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/edtpassword"
         android:hint="Enter Password"
         android:textColorHint="#ccc"
         android:textColor="#fff"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText3"
-        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/edtemail"
+        android:layout_below="@+id/edtemail"
         android:layout_marginTop="26dp"
         android:ems="10"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSignUp"
         android:layout_width="350dp"
-        android:background="#2774b3"
-        android:textColor="#FFF"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText4"
-        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/edtpassword"
+        android:layout_below="@+id/edtpassword"
         android:layout_marginTop="28dp"
-        android:text="Sign Up" />
+        android:background="#2774b3"
+        android:text="Sign Up"
+        android:textColor="#FFF" />
 
 </RelativeLayout>
