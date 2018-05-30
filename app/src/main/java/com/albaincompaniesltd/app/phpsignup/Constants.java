@@ -6,5 +6,8 @@ package com.albaincompaniesltd.app.phpsignup;
 
 public class Constants {
 
-    
+    public static final String BASE_URL = "";
+    public static final  String REGISTER_URL = BASE_URL + "registerUser.php";
+
+
 }
